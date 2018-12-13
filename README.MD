@@ -10,7 +10,7 @@ list of national parks in an area.<br>
 <br>
 <li>Create a new app and push it to GitHub.</li>
 <br>
-<li>When you're done, submit the link to your GitHub repo at the bottom of the page.<li>
+<li>When you're done, submit the link to your GitHub repo at the bottom of the page.</li>
 <br>
 <li>Requirements:</li><br>
 <ul>
