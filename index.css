@@ -1,0 +1,167 @@
+body * {
+    box-sizing: border-box;
+  }
+body {
+    font-family: Sans-Serif;
+    font-size: 1.2em;
+    color: green;
+    /* background-color: rgb(97, 95, 95); */
+    background-color: #FFFFFF;
+    padding: 0;
+    margin: 0;
+  }
+
+  .instruction {
+      font-size: .8rem;
+      width: 325px;
+      text-align: center;
+  }
+  .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  h1 {
+    text-align: center;
+  }
+  h4 {
+    margin: 1rem 0;
+  }
+.search-form{
+    display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+}
+.css-search{
+    min-width: 325px;
+    padding: .2em .5em;
+    margin: .25em 0;
+}
+#find-btn{
+    border:3px solid green;
+    background-color: green;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: bold;
+}
+input[type=text]{
+    border:1px solid darkgrey;
+    outline-color: 3px solid green;
+    font-size: 1rem;
+}
+.search-label{
+    font-weight: bold;
+}
+  .hidden {
+    display: none;
+    visibility: hidden;
+  }
+.error {
+    color: red;
+}
+.results {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-content: flex-start;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    box-shadow:0px 3px 5px 1px lightgray;
+    padding: 15px;
+    font-size: 1rem;
+    
+}
+.flex-container {
+    max-width: 42rem;
+    min-width: 325px;
+   
+}
+.user {
+    color: blue;
+}
+li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: inherit;
+  }
+ul{
+    margin-top: -10px;
+}
+.result-item {
+  width: 100%;
+  border: 1px solid lightgray;
+  padding: .5rem;
+  border-radius: 4px;
+}
+  /* LOADER---------------------------------------------------------------------- */
+  .load {
+    position: relative;
+    margin: 50px auto;
+    width: 100px;
+    height: 80px;
+  }
+  
+  .gear {
+    position: absolute;
+    z-index: -10;
+    width: 40px;
+    height: 40px;
+    animation: spin 5s infinite;
+  }
+  
+  .two {
+    left: 40px;
+    width: 80px;
+    height: 80px;
+    animation: spin-reverse 5s infinite;
+  }
+  
+  .three {
+    top: 45px;
+    left: -10px;
+    width: 60px;
+    height: 60px;
+  }
+  
+  @keyframes spin {
+    50% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes spin-reverse {
+    50% {
+      transform: rotate(-360deg);
+    }
+  }
+  
+  .lil-circle {
+    position: absolute;
+    border-radius: 50%;
+    box-shadow: inset 0 0 10px 2px gray, 0 0 50px white;
+    width: 100px;
+    height: 100px;
+    opacity: .65;
+  }
+  
+  .blur-circle {
+    position: absolute;
+    top: -19px;
+    left: -19px;
+  }
+  
+  .text {
+    color: lightgray;
+    font-size: 18px;
+     font-family: 'Open Sans', sans-serif;
+    
+    text-align: center;
+  }
+  
+  @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+  
+  
