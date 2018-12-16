@@ -62,7 +62,7 @@ function getParks(states, maxResults) {
     //pass user's parameters to form query string
     const queryString = formatQueryParams(states, maxResults)
     //Combine endPoint and queryString to form url to pull data from
-    const url = endPoint + '?' + queryString + '&fields=addresses&start=0'
+    const url = endPoint + '?' + queryString + '&fields=addresses'
     console.log(url);
 
     // const options = {
